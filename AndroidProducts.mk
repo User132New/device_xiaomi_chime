@@ -5,13 +5,13 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_citrus.mk \
-    $(LOCAL_DIR)/aosp_lime.mk
+    $(LOCAL_DIR)/awaken_citrus.mk \
+    $(LOCAL_DIR)/awaken_lime.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_citrus-user \
-    aosp_citrus-userdebug \
-    aosp_citrus-eng \
-    aosp_lime-user \
-    aosp_lime-userdebug \
-    aosp_lime-eng
+    awaken_citrus-user \
+    awaken_citrus-userdebug \
+    awaken_citrus-eng \
+    awaken_lime-user \
+    awaken_lime-userdebug \
+    awaken_lime-eng

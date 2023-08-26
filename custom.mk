@@ -5,8 +5,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common PixelExperience stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common Awaken stuff.
+$(call inherit-product, vendor/awaken/config/common_full_phone.mk)
 
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -20,4 +20,4 @@ PRODUCT_PACKAGES += \
     nga
 
 # Recovery
-TARGET_USES_AOSP_RECOVERY := true
+TARGET_USES_AWAKEN_RECOVERY := true

@@ -18,7 +18,7 @@ $(call inherit-product, vendor/xiaomi/chime/chime-vendor.mk)
 $(call inherit-product-if-exists, vendor/xiaomi/chime-perf/perf.mk)
 
 # Inherit some common Halcyon stuff.
-$(call inherit-product, vendor/halcyon/config/common.mk)
+$(call inherit-product, vendor/evolution/config/common.mk)
 
 # Inherit several Android Go Configurations(Beneficial for everyone, even on non-Go devices)
 PRODUCT_USE_PROFILE_FOR_BOOT_IMAGE := true

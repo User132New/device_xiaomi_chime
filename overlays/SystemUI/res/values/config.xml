@@ -46,4 +46,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
      vibrator is capable of subtle vibrations -->
     <bool name="config_vibrateOnIconAnimation">true</bool>
 
+    <!-- Wheter to enable additional animations that most likely to be janky on device with low graphic processing power -->
+    <bool name="config_lowGraphicDevice">true</bool>
+
 </resources>

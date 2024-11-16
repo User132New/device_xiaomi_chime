@@ -116,6 +116,7 @@ persist.vendor.qcom.bluetooth.soc=cherokee
 persist.vendor.qcom.bluetooth.twsp_state.enabled=false
 persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac
 persist.vendor.bt.aac_frm_ctl.enabled=true
+persist.vendor.bt.aac_vbr_frm_ctl.enabled=true
 ro.bluetooth.a2dp_offload.supported=true
 ro.vendor.bluetooth.wipower=false
 
@@ -137,6 +138,7 @@ ro.crypto.volume.options=::v2
 # Display
 ro.vendor.display.sensortype=2
 debug.sf.auto_latch_unsignaled=0
+debug.sf.enable_gl_backpressure=0
 debug.sf.enable_hwc_vds=1
 debug.sf.enable_egl_image_tracker=0
 debug.sf.high_fps_early_gl_phase_offset_ns=-5000000
@@ -176,6 +178,8 @@ vendor.display.idle_time=0
 vendor.display.normal_noc_efficiency_factor=0.85
 vendor.gralloc.disable_ubwc=0
 vendor.gralloc.secure_preview_buffer_format=420_sp
+vendor.display.enable_camera_smooth=1
+vendor.display.enable_allow_idle_fallback=1
 
 # DPM
 persist.vendor.dpmhalservice.enable=1

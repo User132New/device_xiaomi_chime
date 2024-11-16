@@ -131,6 +131,11 @@ PRODUCT_PACKAGES += \
     libstdc++_vendor \
     libgui_vendor
 
+# Cgroup and task_profiles
+PRODUCT_COPY_FILES += \
+    system/core/libprocessgroup/profiles/cgroups.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \
+    system/core/libprocessgroup/profiles/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json
+
 # Component overrides
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml
@@ -185,6 +190,9 @@ TARGET_SCREEN_HEIGHT := 2340
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4.vendor \
     android.hardware.drm-service.clearkey
+
+PRODUCT_PACKAGES += \
+    libcrypto-v33
 
 # Fastboot - Dynamic Partition
 PRODUCT_PACKAGES += \

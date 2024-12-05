@@ -5,7 +5,7 @@
 #
 
 # Inherit some common AOSP stuff.
-$(call inherit-product, vendor/aosp/config/common.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Lineage Health
 PRODUCT_PACKAGES += \
